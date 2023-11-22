@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Flask Docker</title>
+    <style>
+        h1
+        {
+            text-align: center;
+        }
+        form
+        {
+            align-items: center;
+        }
+        body
+        {
+            align-items: center;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Ziv's Application with postgresql DB</h1> 
+    <table align="center">
+        <tr><td>
+            <form action="submit" method="post">
+                <label for="DBName">Database Name: </label>
+                <input type="text" id="DBName" name="DBName" required>
+                <label for="SchemaName">Schema Name: </label>
+                <input type="text" id="SchemaName" name="SchemaName" required>
+                <label for="TableName">Table Name: </label>
+                <input for="TableName" id="TableName" name="TableName" required>
+                <button type="submit">Submit</button>
+            </form>
+        </td></tr>
+    </table>
+</body>
+</html>
